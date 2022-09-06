@@ -4506,6 +4506,11 @@ textarea.form-control-lg {
   color: #fff;
 }
 
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
 .card {
   position: relative;
   display: flex;
